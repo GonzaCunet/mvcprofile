@@ -1,0 +1,15 @@
+{
+  "name": "mvc-profile",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./fe-src/index.html",
+  "scripts": {
+    "start": "parcel --dist-dir ./fe-dist/",
+    "build": "parcel build --dist-dir ./fe-dist/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
