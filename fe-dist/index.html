@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="/index.c0a14c57.js" defer=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script>
     <link rel="stylesheet" href="/index.b04d3a39.css">
     <title>mvc-profile</title>
   </head>
   <body>
+    <header-el></header-el>
     <div class="container">
-      <label for="name">Tu Nombre</label>
-      <input class="input" type="text" name="name">
-      <label for="bio">Bio</label>
-      <input class="input" type="text" name="Bio">
-      <img class="img" src="/images.3a1ed826.jpg" alt="">
-      <button class="button">guardar</button>
+      <form class="formulario">
+        <label for="name">Tu Nombre</label>
+        <input class="input" type="text" name="name">
+        <label for="bio">Bio</label>
+        <input class="input" type="text" name="bio">
+        <div>
+          <button type="button" class="foto-input">Cargar imagen</button>
+        </div>
+        <button type="submit" class="button">guardar</button>
+      </form>
     </div>
   </body>
 </html>
